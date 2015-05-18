@@ -23,7 +23,11 @@ switch ($type) {
 		require_once ("Likes.php");
 		break;
 	default:
+<<<<<<< HEAD
 		echo "Hack attempt...";
+=======
+		echo "Bye :)";
+>>>>>>> 6efe23e6e14fb0778c95d52173f3548a10bf3a80
 		break;
 }
 
@@ -31,7 +35,11 @@ disconnect_db($conn);
 /*
 	$filename = 'test.txt';
 	$somecontent = $query;
+<<<<<<< HEAD
 	$handle = fopen($filename, 'w');
+=======
+	$handle = fopen($filename, 'a');
+>>>>>>> 6efe23e6e14fb0778c95d52173f3548a10bf3a80
 	fwrite($handle, $somecontent);
     fclose($handle);
 */

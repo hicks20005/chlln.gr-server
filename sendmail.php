@@ -2,6 +2,17 @@
 // Email Submit
 // Note: filter_var() requires PHP >= 5.2.0
 
+<<<<<<< HEAD
+=======
+/*
+$filename = 'test.txt';
+$somecontent = "asd";
+$handle = fopen($filename, 'a');
+fwrite($handle, $somecontent);
+fclose($handle);
+*/
+
+>>>>>>> 6efe23e6e14fb0778c95d52173f3548a10bf3a80
 if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject']) && isset($_POST['message']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
  
   // detect & prevent header injections
