@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile /www/chlln.gr/www/admin/.htpasswd
+Require valid-user
